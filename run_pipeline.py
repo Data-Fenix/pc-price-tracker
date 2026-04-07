@@ -149,6 +149,18 @@ def run(
     logger.info("pipeline_finished", total_records=total_records)
 
 
+def run_benchmark(scraper: str | None, query: str, category: str) -> None:
+    """Run the scraper benchmark and print a Rich report + save JSON."""
+    from benchmark.runner import run_all
+    from benchmark.report import render_console, render_summary, save_json
+
+    logger.info("benchmark_mode", query=query, category=category, scraper=scraper or "all")
+    metrics = run_all(category=category, query=query, scraper=scraper or None)
+    render_console(metrics)
+    render_summary(metrics)
+    save_json(metrics)
+
+
 @click.command()
 @click.option(
     "--sources",
@@ -164,12 +176,31 @@ def run(
 )
 @click.option("--dry-run", is_flag=True, default=False, help="Scrape but skip storage.")
 @click.option("--local", "use_local", is_flag=True, default=False, help="Use local filesystem storage.")
+@click.option("--benchmark", is_flag=True, default=False, help="Run scraper benchmark comparison.")
+@click.option(
+    "--scraper",
+    default=None,
+    type=click.Choice(["bs4", "selenium", "playwright", "crawl4ai", "serpapi"]),
+    help="Limit benchmark to a single scraper approach.",
+)
+@click.option("--benchmark-query", default="MacBook Pro 14", show_default=True,
+              help="Query string used in benchmark mode.")
+@click.option("--benchmark-category", default="laptops", show_default=True,
+              help="Category used in benchmark mode.")
 def main(
     sources: tuple[str, ...],
     categories: tuple[str, ...],
     dry_run: bool,
     use_local: bool,
+    benchmark: bool,
+    scraper: str | None,
+    benchmark_query: str,
+    benchmark_category: str,
 ) -> None:
+    if benchmark:
+        run_benchmark(scraper=scraper, query=benchmark_query, category=benchmark_category)
+        return
+
     sources_cfg: dict = load_yaml(settings.SOURCES_CONFIG)
     products_cfg: dict = load_yaml(settings.PRODUCTS_CONFIG)
 

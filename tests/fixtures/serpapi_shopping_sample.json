@@ -1,0 +1,111 @@
+{
+  "search_metadata": {
+    "status": "Success",
+    "engine": "google_shopping",
+    "total_time_taken": 1.23
+  },
+  "search_parameters": {
+    "engine": "google_shopping",
+    "q": "MacBook Pro 14",
+    "gl": "de",
+    "hl": "de"
+  },
+  "shopping_results": [
+    {
+      "position": 1,
+      "title": "Apple MacBook Pro 14\" M4 Pro 24 GB RAM 1 TB SSD Space Schwarz",
+      "link": "https://www.mediamarkt.de/de/product/-apple-macbook-pro-14-m4-pro-2474658.html",
+      "source": "MediaMarkt",
+      "price": "2.419,00 \u20ac",
+      "extracted_price": 2419.0,
+      "currency": "EUR",
+      "rating": 4.8,
+      "reviews": 312,
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?dummy=1"
+    },
+    {
+      "position": 2,
+      "title": "Apple MacBook Pro 14\" M3 8 GB RAM 512 GB SSD Silber",
+      "link": "https://www.saturn.de/de/product/-apple-macbook-pro-14-m3-silber-2412345.html",
+      "source": "Saturn",
+      "price": "1.799,00 \u20ac",
+      "extracted_price": 1799.0,
+      "currency": "EUR",
+      "rating": 4.7,
+      "reviews": 589,
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?dummy=2"
+    },
+    {
+      "position": 3,
+      "title": "Apple MacBook Pro 14\" M3 Pro 18 GB RAM 512 GB SSD Space Grau",
+      "link": "https://www.notebooksbilliger.de/apple+macbook+pro+14+m3+pro+space+grau+12+core+cpu+18+gb+ram+512+gb+ssd+778901",
+      "source": "notebooksbilliger.de",
+      "price": "2.049,00 \u20ac",
+      "extracted_price": 2049.0,
+      "currency": "EUR",
+      "rating": 4.9,
+      "reviews": 204,
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?dummy=3"
+    },
+    {
+      "position": 4,
+      "title": "Apple MacBook Pro 14\" M4 16 GB RAM 512 GB SSD Silber",
+      "link": "https://www.alternate.de/Apple/MacBook-Pro-14-M4-Silber/html/product/100857234",
+      "source": "Alternate",
+      "price": "1.999,00 \u20ac",
+      "extracted_price": 1999.0,
+      "currency": "EUR",
+      "rating": 4.6,
+      "reviews": 87,
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?dummy=4"
+    },
+    {
+      "position": 5,
+      "title": "Apple MacBook Pro 14\" M3 8 GB RAM 1 TB SSD Silber (Generalüberholt)",
+      "link": "https://www.amazon.de/dp/B0CM5JV268",
+      "source": "Amazon.de",
+      "price": "1.650,00 \u20ac",
+      "extracted_price": 1650.0,
+      "currency": "EUR",
+      "rating": 4.5,
+      "reviews": 1023,
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?dummy=5"
+    },
+    {
+      "position": 6,
+      "title": "Apple MacBook Pro 14\" M4 Pro 24 GB RAM 512 GB SSD Space Schwarz",
+      "link": "https://www.cyberport.de/apple/mac/macbook-pro/apple-macbook-pro-14-m4-pro-space-schwarz-1234.html",
+      "source": "Cyberport",
+      "price": "2.199,00 \u20ac",
+      "extracted_price": 2199.0,
+      "currency": "EUR",
+      "rating": 4.7,
+      "reviews": 156,
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?dummy=6"
+    },
+    {
+      "position": 7,
+      "title": "Apple MacBook Pro 14\" M3 8GB 512GB Silber - Wie Neu",
+      "link": "https://www.ebay.de/itm/123456789012",
+      "source": "eBay",
+      "price": "1.589,00 \u20ac",
+      "extracted_price": 1589.0,
+      "currency": "EUR",
+      "rating": null,
+      "reviews": null,
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?dummy=7"
+    },
+    {
+      "position": 8,
+      "title": "Apple MacBook Pro 14\" M4 16 GB RAM 512 GB Mitternacht",
+      "link": "https://www.idealo.de/preisvergleich/OffersOfProduct/335022_-macbook-pro-14-m4-apple.html",
+      "source": "idealo.de",
+      "price": "ab 1.949,00 \u20ac",
+      "extracted_price": 1949.0,
+      "currency": "EUR",
+      "rating": null,
+      "reviews": null,
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?dummy=8"
+    }
+  ]
+}

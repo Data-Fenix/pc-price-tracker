@@ -1,0 +1,50 @@
+{
+  "search_metadata": {
+    "status": "Success",
+    "engine": "google",
+    "total_time_taken": 0.98
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "site:idealo.de MacBook Pro 14",
+    "gl": "de",
+    "hl": "de"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Apple MacBook Pro 14\" M4 ab 1.949,00 \u20ac | Preisvergleich bei idealo",
+      "link": "https://www.idealo.de/preisvergleich/OffersOfProduct/335022_-macbook-pro-14-m4-apple.html",
+      "snippet": "Apple MacBook Pro 14\" M4 (2024) ab 1.949,00 \u20ac kaufen (Stand: April 2026). Preisvergleich mit 24 Angeboten aus Shops wie MediaMarkt, Saturn, Cyberport.",
+      "displayed_link": "https://www.idealo.de \u203a ... \u203a MacBook Pro"
+    },
+    {
+      "position": 2,
+      "title": "Apple MacBook Pro 14\" M3 ab 1.699,00 \u20ac | Preisvergleich bei idealo",
+      "link": "https://www.idealo.de/preisvergleich/OffersOfProduct/295544_-macbook-pro-14-m3-apple.html",
+      "snippet": "Apple MacBook Pro 14\" M3 (2023) ab 1.699,00 \u20ac kaufen. 18 Angebote aus verifizierten Shops. Bestpreis-Garantie.",
+      "displayed_link": "https://www.idealo.de \u203a ... \u203a MacBook Pro"
+    },
+    {
+      "position": 3,
+      "title": "Apple MacBook Pro 14\" M4 Pro ab 2.149,00 \u20ac | idealo Preisvergleich",
+      "link": "https://www.idealo.de/preisvergleich/OffersOfProduct/335023_-macbook-pro-14-m4-pro-apple.html",
+      "snippet": "Apple MacBook Pro 14\" M4 Pro 24 GB / 512 GB ab 2.149,00 \u20ac. Jetzt die besten Preise vergleichen. 31 Angebote von 18 H\u00e4ndlern.",
+      "displayed_link": "https://www.idealo.de \u203a ... \u203a MacBook Pro"
+    },
+    {
+      "position": 4,
+      "title": "Apple MacBook Pro 14\" M3 Pro Preisvergleich | idealo.de",
+      "link": "https://www.idealo.de/preisvergleich/OffersOfProduct/295545_-macbook-pro-14-m3-pro-apple.html",
+      "snippet": "Apple MacBook Pro 14\" M3 Pro ab 1.989,00 \u20ac. Vergleiche 22 Angebote von Cyberport, Notebooksbilliger, Amazon und weiteren H\u00e4ndlern.",
+      "displayed_link": "https://www.idealo.de \u203a ... \u203a MacBook Pro"
+    },
+    {
+      "position": 5,
+      "title": "MacBook Pro 14 Zoll G\u00fcnstig kaufen | idealo.de",
+      "link": "https://www.idealo.de/preisvergleich/MainSearchProductCategory.html?q=MacBook+Pro+14",
+      "snippet": "MacBook Pro 14 Zoll g\u00fcnstig kaufen und bis zu 35% sparen. Preisvergleich \u2022 G\u00fcnstigster Preis: 1.589,00 \u20ac \u2022 186 Angebote im Vergleich.",
+      "displayed_link": "https://www.idealo.de \u203a preisvergleich"
+    }
+  ]
+}

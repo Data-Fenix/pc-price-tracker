@@ -1,0 +1,32 @@
+# Scraping sources configuration.
+# 'scraper_class' maps to the class name inside scrapers/.
+
+amazon_de:
+  display_name: "Amazon DE"
+  base_url: "https://www.amazon.de"
+  scraper_class: "AmazonDEScraper"
+  enabled: true
+  search_url_template: "https://www.amazon.de/s?k={query}&language=de_DE"
+  currency: "EUR"
+  rate_limit_delay: 3          # seconds between requests
+  use_playwright: false        # switch to headed browser if needed
+
+ebay_de:
+  display_name: "eBay DE"
+  base_url: "https://www.ebay.de"
+  scraper_class: "EbayDEScraper"
+  enabled: true
+  search_url_template: "https://www.ebay.de/sch/i.html?_nkw={query}&_sop=15"
+  currency: "EUR"
+  rate_limit_delay: 2
+  use_playwright: false
+
+idealo_de:
+  display_name: "Idealo DE"
+  base_url: "https://www.idealo.de"
+  scraper_class: "IdealoDEScraper"
+  enabled: true
+  search_url_template: "https://www.idealo.de/preisvergleich/MainSearchProductCategory.html?q={query}"
+  currency: "EUR"
+  rate_limit_delay: 2
+  use_playwright: true         # Idealo uses heavy JS rendering

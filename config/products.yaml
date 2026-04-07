@@ -1,0 +1,65 @@
+# Products to track, grouped by category.
+# Each entry defines a search query and optional filters used by scrapers.
+
+laptops:
+  - name: "Apple MacBook Air M3 13\""
+    search_query: "MacBook Air M3 13 Zoll"
+    brand: Apple
+    model: "MacBook Air M3"
+
+  - name: "Lenovo ThinkPad X1 Carbon Gen 12"
+    search_query: "ThinkPad X1 Carbon Gen 12"
+    brand: Lenovo
+    model: "ThinkPad X1 Carbon Gen 12"
+
+  - name: "Dell XPS 15 9530"
+    search_query: "Dell XPS 15 9530"
+    brand: Dell
+    model: "XPS 15 9530"
+
+  - name: "ASUS ROG Zephyrus G14 2024"
+    search_query: "ASUS ROG Zephyrus G14 2024"
+    brand: ASUS
+    model: "ROG Zephyrus G14"
+
+gpus:
+  - name: "NVIDIA GeForce RTX 4070 Super"
+    search_query: "RTX 4070 Super Grafikkarte"
+    brand: NVIDIA
+    model: "RTX 4070 Super"
+
+  - name: "NVIDIA GeForce RTX 4080 Super"
+    search_query: "RTX 4080 Super Grafikkarte"
+    brand: NVIDIA
+    model: "RTX 4080 Super"
+
+  - name: "AMD Radeon RX 7800 XT"
+    search_query: "RX 7800 XT Grafikkarte"
+    brand: AMD
+    model: "RX 7800 XT"
+
+  - name: "AMD Radeon RX 7900 XTX"
+    search_query: "RX 7900 XTX Grafikkarte"
+    brand: AMD
+    model: "RX 7900 XTX"
+
+phones:
+  - name: "Apple iPhone 15 Pro 256 GB"
+    search_query: "iPhone 15 Pro 256GB"
+    brand: Apple
+    model: "iPhone 15 Pro"
+
+  - name: "Samsung Galaxy S24 Ultra"
+    search_query: "Samsung Galaxy S24 Ultra"
+    brand: Samsung
+    model: "Galaxy S24 Ultra"
+
+  - name: "Google Pixel 8 Pro"
+    search_query: "Google Pixel 8 Pro"
+    brand: Google
+    model: "Pixel 8 Pro"
+
+  - name: "OnePlus 12"
+    search_query: "OnePlus 12"
+    brand: OnePlus
+    model: "OnePlus 12"

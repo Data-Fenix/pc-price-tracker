@@ -4,7 +4,10 @@ Local filesystem storage — mirrors the Azure blob partition scheme.
 Writes to:
     {OUTPUT_DIR}/raw/{source}/{category}/{year}/{month}/{day}/products.json
 
-Useful for local development and as a fallback when Azure is unavailable.
+If the file already exists for today, new records are merged with the
+existing ones.  Deduplication is done by the ``url`` field; incoming
+records overwrite stale ones for the same URL so that price updates are
+always reflected.
 """
 from __future__ import annotations
 
@@ -44,30 +47,35 @@ class LocalStorage:
         """
         Write *records* as pretty-printed JSON to the local partition path.
 
-        Parameters
-        ----------
-        records:
-            List of ProductRecord dicts.
-        source:
-            Source key, e.g. ``"amazon_de"``.
-        category:
-            Category key, e.g. ``"laptops"``.
-        run_date:
-            Date for the partition; defaults to today (UTC).
+        If a file already exists for this (source, category, date) partition,
+        the new records are merged into it.  Deduplication is by ``url``; a
+        blank/missing URL is treated as unique so those records are always
+        appended rather than replaced.
 
-        Returns
-        -------
-        Path
-            Absolute path of the file that was written.
-
-        TODO
-        ----
-        - Build directory path mirroring the blob partition scheme.
-        - Create intermediate directories with mkdir(parents=True).
-        - Write JSON with json.dumps and utf-8 encoding.
-        - Log the output path.
+        Returns the absolute path of the file written.
         """
-        raise NotImplementedError("LocalStorage.save not yet implemented")
+        if not records:
+            logger.warning("local_storage_no_records", source=source, category=category)
+
+        today = run_date or datetime.now(timezone.utc).date()
+        path = self.output_path(source, category, today)
+        path.parent.mkdir(parents=True, exist_ok=True)
+
+        merged = self._merge(path, records)
+
+        path.write_text(
+            json.dumps(merged, indent=2, ensure_ascii=False),
+            encoding="utf-8",
+        )
+        logger.info(
+            "local_storage_saved",
+            source=source,
+            category=category,
+            path=str(path),
+            total_records=len(merged),
+            new_records=len(records),
+        )
+        return path
 
     def output_path(self, source: str, category: str, run_date: date) -> Path:
         """Return the file path for the given partition."""
@@ -81,3 +89,46 @@ class LocalStorage:
             / run_date.strftime("%d")
             / "products.json"
         )
+
+    # ── Internal ───────────────────────────────────────────────────────────────
+
+    @staticmethod
+    def _merge(
+        path: Path,
+        incoming: list[dict[str, Any]],
+    ) -> list[dict[str, Any]]:
+        """
+        Merge *incoming* records into any existing file at *path*.
+
+        - Index existing records by URL.
+        - Overwrite index entries with incoming records that share the same URL
+          (price update wins).
+        - Records with empty/missing URL are always appended (no dedup key).
+        - Return merged list preserving existing order, new records at end.
+        """
+        existing: list[dict[str, Any]] = []
+        if path.exists():
+            try:
+                existing = json.loads(path.read_text(encoding="utf-8"))
+                if not isinstance(existing, list):
+                    existing = []
+            except (json.JSONDecodeError, OSError):
+                existing = []
+
+        url_to_idx: dict[str, int] = {}
+        for idx, rec in enumerate(existing):
+            url = (rec.get("url") or "").strip()
+            if url:
+                url_to_idx[url] = idx
+
+        for rec in incoming:
+            url = (rec.get("url") or "").strip()
+            if url and url in url_to_idx:
+                existing[url_to_idx[url]] = rec       # overwrite stale price
+            elif url:
+                url_to_idx[url] = len(existing)
+                existing.append(rec)
+            else:
+                existing.append(rec)                  # no URL — always append
+
+        return existing

@@ -32,12 +32,19 @@ htmlcov/
 *.swp
 *.swo
 
-# Logs
-logs/
+# Logs — ignore all run logs; keep one sample for repo structure visibility
+logs/*
 *.log
+!logs/sample_run.log
 
-# Local output data
-output/
+# Output data — scraped/processed data and ML artifacts (excluded)
+# output/catalog/ JSON/CSV are committed as synthetic assets
+output/raw/
+output/processed/
+output/benchmarks/
+output/catalog/embeddings.npy
+output/catalog/embedding_ids.json
+output/catalog/embeddings_index.json
 
 # Playwright
 playwright-report/

@@ -1,0 +1,126 @@
+product_id,canonical_name,brand,model,variant,category,subcategory,ean,our_cost_price_eur,our_retail_price_eur,created_at,specs_camera_mp,specs_chip,specs_display_inch,specs_form_factor,specs_gpu,specs_interface,specs_os,specs_processor,specs_ram_gb,specs_storage_gb,specs_tdp_watts,specs_vram_gb
+LAP-001,Apple MacBook Air 13 M3,Apple,MacBook Air 13,M3 8GB 256GB Midnight,laptop,ultrabook,0194253209392,899.0,1099.0,2024-01-15,,,13.6,,integrated,,macOS,Apple M3,8,256,,
+LAP-002,Apple MacBook Air 13 M3,Apple,MacBook Air 13,M3 8GB 512GB Starlight,laptop,ultrabook,0194253209408,1049.0,1299.0,2024-01-15,,,13.6,,integrated,,macOS,Apple M3,8,512,,
+LAP-003,Apple MacBook Air 13 M3,Apple,MacBook Air 13,M3 16GB 256GB Space Gray,laptop,ultrabook,0194253209415,1049.0,1299.0,2024-01-15,,,13.6,,integrated,,macOS,Apple M3,16,256,,
+LAP-004,Apple MacBook Air 13 M3,Apple,MacBook Air 13,M3 16GB 512GB Midnight,laptop,ultrabook,0194253209422,1199.0,1499.0,2024-01-15,,,13.6,,integrated,,macOS,Apple M3,16,512,,
+LAP-005,Apple MacBook Air 13 M3,Apple,MacBook Air 13,M3 24GB 512GB Sky Blue,laptop,ultrabook,0194253209439,1349.0,1699.0,2024-01-15,,,13.6,,integrated,,macOS,Apple M3,24,512,,
+LAP-006,Apple MacBook Air 15 M3,Apple,MacBook Air 15,M3 8GB 256GB Starlight,laptop,ultrabook,0194253209446,1049.0,1299.0,2024-01-15,,,15.3,,integrated,,macOS,Apple M3,8,256,,
+LAP-007,Apple MacBook Air 15 M3,Apple,MacBook Air 15,M3 16GB 512GB Space Gray,laptop,ultrabook,0194253209453,1349.0,1699.0,2024-01-15,,,15.3,,integrated,,macOS,Apple M3,16,512,,
+LAP-008,Apple MacBook Air 13 M2,Apple,MacBook Air 13,M2 8GB 256GB Midnight,laptop,ultrabook,0194253209460,699.0,899.0,2024-01-15,,,13.6,,integrated,,macOS,Apple M2,8,256,,
+LAP-009,Apple MacBook Air 13 M4,Apple,MacBook Air 13,M4 16GB 256GB Sky Blue,laptop,ultrabook,0194253209477,899.0,1099.0,2024-01-15,,,13.6,,integrated,,macOS,Apple M4,16,256,,
+LAP-010,Apple MacBook Air 13 M4,Apple,MacBook Air 13,M4 16GB 512GB Starlight,laptop,ultrabook,0194253209484,1049.0,1299.0,2024-01-15,,,13.6,,integrated,,macOS,Apple M4,16,512,,
+LAP-011,Lenovo ThinkPad X1 Carbon Gen 12,Lenovo,ThinkPad X1 Carbon Gen 12,Intel Core Ultra 7 155U 16GB 512GB,laptop,business,0196800000011,1249.0,1599.0,2024-01-15,,,14.0,,integrated,,Windows 11 Pro,Intel Core Ultra 7 155U,16,512,,
+LAP-012,Lenovo ThinkPad X1 Carbon Gen 12,Lenovo,ThinkPad X1 Carbon Gen 12,Intel Core Ultra 7 155U 32GB 1TB,laptop,business,0196800000028,1549.0,1999.0,2024-01-15,,,14.0,,integrated,,Windows 11 Pro,Intel Core Ultra 7 155U,32,1024,,
+LAP-013,Lenovo ThinkPad X1 Carbon Gen 12,Lenovo,ThinkPad X1 Carbon Gen 12,Intel Core Ultra 5 125U 16GB 256GB,laptop,business,0196800000035,1049.0,1349.0,2024-01-15,,,14.0,,integrated,,Windows 11 Pro,Intel Core Ultra 5 125U,16,256,,
+LAP-014,Lenovo ThinkPad X1 Carbon Gen 11,Lenovo,ThinkPad X1 Carbon Gen 11,Intel Core i7-1365U 16GB 512GB,laptop,business,0196800000042,999.0,1299.0,2024-01-15,,,14.0,,integrated,,Windows 11 Pro,Intel Core i7-1365U,16,512,,
+LAP-015,Lenovo ThinkPad X1 Carbon Gen 11,Lenovo,ThinkPad X1 Carbon Gen 11,Intel Core i7-1365U 32GB 1TB,laptop,business,0196800000059,1249.0,1599.0,2024-01-15,,,14.0,,integrated,,Windows 11 Pro,Intel Core i7-1365U,32,1024,,
+LAP-016,Lenovo ThinkPad X1 Carbon Gen 10,Lenovo,ThinkPad X1 Carbon Gen 10,Intel Core i7-1260P 16GB 512GB,laptop,business,0196800000066,849.0,1099.0,2024-01-15,,,14.0,,integrated,,Windows 11 Pro,Intel Core i7-1260P,16,512,,
+LAP-017,Lenovo ThinkPad X1 Carbon Gen 12,Lenovo,ThinkPad X1 Carbon Gen 12,Intel Core Ultra 7 165U 32GB 512GB Touch,laptop,business,0196800000073,1449.0,1849.0,2024-01-15,,,14.0,,integrated,,Windows 11 Pro,Intel Core Ultra 7 165U,32,512,,
+LAP-018,Dell XPS 15 9530,Dell,XPS 15 9530,Intel Core i7-13700H 16GB 512GB RTX 4060,laptop,ultrabook,0884116430001,1549.0,1999.0,2024-01-15,,,15.6,,NVIDIA RTX 4060,,Windows 11 Home,Intel Core i7-13700H,16,512,,
+LAP-019,Dell XPS 15 9530,Dell,XPS 15 9530,Intel Core i9-13900H 32GB 1TB RTX 4070,laptop,ultrabook,0884116430018,2049.0,2599.0,2024-01-15,,,15.6,,NVIDIA RTX 4070,,Windows 11 Pro,Intel Core i9-13900H,32,1024,,
+LAP-020,Dell XPS 15 9530,Dell,XPS 15 9530,Intel Core i7-13700H 32GB 1TB RTX 4060,laptop,ultrabook,0884116430025,1749.0,2199.0,2024-01-15,,,15.6,,NVIDIA RTX 4060,,Windows 11 Home,Intel Core i7-13700H,32,1024,,
+LAP-021,Dell XPS 15 9540,Dell,XPS 15 9540,Intel Core Ultra 9 185H 32GB 1TB RTX 4070,laptop,ultrabook,0884116430032,2149.0,2699.0,2024-01-15,,,15.6,,NVIDIA RTX 4070,,Windows 11 Pro,Intel Core Ultra 9 185H,32,1024,,
+LAP-022,Dell G15 5530,Dell,G15 5530,Intel Core i5-13450HX 16GB 512GB RTX 3050,laptop,gaming,0884116430049,799.0,999.0,2024-01-15,,,15.6,,NVIDIA RTX 3050,,Windows 11 Home,Intel Core i5-13450HX,16,512,,
+LAP-023,Dell G15 5530,Dell,G15 5530,Intel Core i7-13650HX 16GB 512GB RTX 4060,laptop,gaming,0884116430056,999.0,1249.0,2024-01-15,,,15.6,,NVIDIA RTX 4060,,Windows 11 Home,Intel Core i7-13650HX,16,512,,
+LAP-024,ASUS ROG Zephyrus G14 2024,ASUS,ROG Zephyrus G14,AMD Ryzen 9 8945HS 16GB 1TB RTX 4070 OLED,laptop,gaming,4711387232001,1449.0,1799.0,2024-01-15,,,14.0,,NVIDIA RTX 4070,,Windows 11 Home,AMD Ryzen 9 8945HS,16,1024,,
+LAP-025,ASUS ROG Zephyrus G14 2024,ASUS,ROG Zephyrus G14,AMD Ryzen AI 9 HX 370 32GB 1TB RTX 4070 OLED,laptop,gaming,4711387232018,1649.0,2049.0,2024-01-15,,,14.0,,NVIDIA RTX 4070,,Windows 11 Home,AMD Ryzen AI 9 HX 370,32,1024,,
+LAP-026,ASUS ROG Zephyrus G14 2024,ASUS,ROG Zephyrus G14,AMD Ryzen AI 9 HX 370 32GB 1TB RTX 5070 Ti OLED,laptop,gaming,4711387232025,1999.0,2499.0,2024-01-15,,,14.0,,NVIDIA RTX 5070 Ti,,Windows 11 Home,AMD Ryzen AI 9 HX 370,32,1024,,
+LAP-027,ASUS ROG Zephyrus G16 2024,ASUS,ROG Zephyrus G16,Intel Core Ultra 9 185H 32GB 1TB RTX 4090 OLED,laptop,gaming,4711387232032,2249.0,2799.0,2024-01-15,,,16.0,,NVIDIA RTX 4090,,Windows 11 Home,Intel Core Ultra 9 185H,32,1024,,
+LAP-028,ASUS VivoBook 15,ASUS,VivoBook 15,Intel Core i5-1235U 8GB 512GB,laptop,budget,4711387232049,449.0,599.0,2024-01-15,,,15.6,,integrated,,Windows 11 Home,Intel Core i5-1235U,8,512,,
+LAP-029,ASUS ZenBook 14 OLED,ASUS,ZenBook 14 OLED,Intel Core Ultra 5 125H 16GB 512GB,laptop,ultrabook,4711387232056,799.0,999.0,2024-01-15,,,14.0,,integrated,,Windows 11 Home,Intel Core Ultra 5 125H,16,512,,
+LAP-030,ASUS ProArt Studiobook 16,ASUS,ProArt Studiobook 16,Intel Core i9-13980HX 64GB 2TB RTX 4090,laptop,business,4711387232063,2799.0,3499.0,2024-01-15,,,16.0,,NVIDIA RTX 4090,,Windows 11 Pro,Intel Core i9-13980HX,64,2048,,
+LAP-031,HP EliteBook 840 G10,HP,EliteBook 840 G10,Intel Core i7-1355U 16GB 512GB,laptop,business,0197029130001,899.0,1149.0,2024-01-15,,,14.0,,integrated,,Windows 11 Pro,Intel Core i7-1355U,16,512,,
+LAP-032,HP Spectre x360 14,HP,Spectre x360 14,Intel Core Ultra 7 155H 16GB 1TB OLED,laptop,ultrabook,0197029130018,1249.0,1599.0,2024-01-15,,,14.0,,integrated,,Windows 11 Home,Intel Core Ultra 7 155H,16,1024,,
+LAP-033,MSI Titan GT77 HX,MSI,Titan GT77 HX,Intel Core i9-13980HX 64GB 2TB RTX 4090,laptop,gaming,4719072164001,2799.0,3499.0,2024-01-15,,,17.3,,NVIDIA RTX 4090,,Windows 11 Pro,Intel Core i9-13980HX,64,2048,,
+LAP-034,MSI Stealth 16 AI Studio,MSI,Stealth 16 AI Studio,Intel Core Ultra 9 185H 32GB 2TB RTX 4080,laptop,gaming,4719072164018,2249.0,2799.0,2024-01-15,,,16.0,,NVIDIA RTX 4080,,Windows 11 Home,Intel Core Ultra 9 185H,32,2048,,
+LAP-035,Acer Swift 3,Acer,Swift 3,AMD Ryzen 7 7730U 16GB 512GB,laptop,ultrabook,4710886000001,549.0,699.0,2024-01-15,,,14.0,,integrated,,Windows 11 Home,AMD Ryzen 7 7730U,16,512,,
+LAP-036,Acer Predator Helios 18,Acer,Predator Helios 18,Intel Core i9-13900HX 32GB 1TB RTX 4080,laptop,gaming,4710886000018,1899.0,2399.0,2024-01-15,,,18.0,,NVIDIA RTX 4080,,Windows 11 Home,Intel Core i9-13900HX,32,1024,,
+LAP-037,Razer Blade 15,Razer,Blade 15,Intel Core i7-13800H 16GB 1TB RTX 4070,laptop,gaming,0811659040001,1999.0,2499.0,2024-01-15,,,15.6,,NVIDIA RTX 4070,,Windows 11 Home,Intel Core i7-13800H,16,1024,,
+LAP-038,Samsung Galaxy Book4 Pro 16,Samsung,Galaxy Book4 Pro 16,Intel Core Ultra 7 155H 16GB 512GB AMOLED,laptop,ultrabook,8806095000011,1149.0,1449.0,2024-01-15,,,16.0,,integrated,,Windows 11 Home,Intel Core Ultra 7 155H,16,512,,
+LAP-039,LG Gram 17,LG,Gram 17,Intel Core Ultra 7 155H 16GB 512GB,laptop,ultrabook,8806098000011,1049.0,1349.0,2024-01-15,,,17.0,,integrated,,Windows 11 Home,Intel Core Ultra 7 155H,16,512,,
+LAP-040,Apple MacBook Pro 14 M3 Pro,Apple,MacBook Pro 14,M3 Pro 18GB 512GB Space Black,laptop,ultrabook,0194253832942,1649.0,1999.0,2024-01-15,,,14.2,,integrated,,macOS,Apple M3 Pro,18,512,,
+GPU-001,Nvidia GeForce RTX 4090,Nvidia,GeForce RTX 4090,24GB GDDR6X,gpu,high_end,0195161961001,1299.0,1599.0,2024-01-15,,AD102,,desktop,,PCIe 4.0,,,,,450,24
+GPU-002,ASUS ROG Strix RTX 4090 OC,ASUS,ROG Strix RTX 4090 OC,24GB GDDR6X,gpu,high_end,4711387361001,1449.0,1799.0,2024-01-15,,AD102,,desktop,,PCIe 4.0,,,,,480,24
+GPU-003,MSI GeForce RTX 4090 Gaming X Trio,MSI,RTX 4090 Gaming X Trio,24GB GDDR6X,gpu,high_end,4719072361001,1399.0,1749.0,2024-01-15,,AD102,,desktop,,PCIe 4.0,,,,,480,24
+GPU-004,Nvidia GeForce RTX 4080 Super,Nvidia,GeForce RTX 4080 Super,16GB GDDR6X,gpu,high_end,0195161961018,899.0,1099.0,2024-01-15,,AD103,,desktop,,PCIe 4.0,,,,,320,16
+GPU-005,ASUS TUF Gaming RTX 4080 Super OC,ASUS,TUF Gaming RTX 4080 Super OC,16GB GDDR6X,gpu,high_end,4711387361018,949.0,1149.0,2024-01-15,,AD103,,desktop,,PCIe 4.0,,,,,340,16
+GPU-006,Nvidia GeForce RTX 4080,Nvidia,GeForce RTX 4080,16GB GDDR6X,gpu,high_end,0195161961025,799.0,999.0,2024-01-15,,AD103,,desktop,,PCIe 4.0,,,,,320,16
+GPU-007,Gigabyte GeForce RTX 4070 Ti Super,Gigabyte,RTX 4070 Ti Super Gaming OC,16GB GDDR6X,gpu,high_end,4719331361001,699.0,849.0,2024-01-15,,AD103,,desktop,,PCIe 4.0,,,,,285,16
+GPU-008,Nvidia GeForce RTX 4070 Ti,Nvidia,GeForce RTX 4070 Ti,12GB GDDR6X,gpu,high_end,0195161961032,649.0,799.0,2024-01-15,,AD104,,desktop,,PCIe 4.0,,,,,285,12
+GPU-009,ASUS ROG Strix RTX 4070 Ti OC,ASUS,ROG Strix RTX 4070 Ti OC,12GB GDDR6X,gpu,high_end,4711387361025,699.0,849.0,2024-01-15,,AD104,,desktop,,PCIe 4.0,,,,,300,12
+GPU-010,MSI GeForce RTX 4070 Super Gaming X Slim,MSI,RTX 4070 Super Gaming X Slim,12GB GDDR6X,gpu,mid_range,4719072361018,499.0,619.0,2024-01-15,,AD104,,desktop,,PCIe 4.0,,,,,220,12
+GPU-011,Nvidia GeForce RTX 4070,Nvidia,GeForce RTX 4070,12GB GDDR6X,gpu,mid_range,0195161961039,449.0,549.0,2024-01-15,,AD104,,desktop,,PCIe 4.0,,,,,200,12
+GPU-012,Gigabyte GeForce RTX 4070 Windforce OC,Gigabyte,RTX 4070 Windforce OC,12GB GDDR6X,gpu,mid_range,4719331361018,469.0,579.0,2024-01-15,,AD104,,desktop,,PCIe 4.0,,,,,200,12
+GPU-013,Nvidia GeForce RTX 4060 Ti,Nvidia,GeForce RTX 4060 Ti,16GB GDDR6,gpu,mid_range,0195161961046,399.0,499.0,2024-01-15,,AD106,,desktop,,PCIe 4.0,,,,,165,16
+GPU-014,ASUS Dual RTX 4060 Ti OC,ASUS,Dual RTX 4060 Ti OC,16GB GDDR6,gpu,mid_range,4711387361032,419.0,519.0,2024-01-15,,AD106,,desktop,,PCIe 4.0,,,,,175,16
+GPU-015,Nvidia GeForce RTX 4060,Nvidia,GeForce RTX 4060,8GB GDDR6,gpu,mid_range,0195161961053,249.0,299.0,2024-01-15,,AD107,,desktop,,PCIe 4.0,,,,,115,8
+GPU-016,MSI GeForce RTX 4060 Gaming X,MSI,RTX 4060 Gaming X,8GB GDDR6,gpu,mid_range,4719072361025,259.0,319.0,2024-01-15,,AD107,,desktop,,PCIe 4.0,,,,,115,8
+GPU-017,Nvidia GeForce RTX 4050 Laptop,Nvidia,GeForce RTX 4050,6GB GDDR6,gpu,budget,0195161961060,299.0,369.0,2024-01-15,,AD107,,laptop,,PCIe 4.0,,,,,60,6
+GPU-018,AMD Radeon RX 7900 XTX,AMD,Radeon RX 7900 XTX,24GB GDDR6,gpu,high_end,0730143314001,849.0,1049.0,2024-01-15,,Navi 31,,desktop,,PCIe 4.0,,,,,355,24
+GPU-019,Sapphire Radeon RX 7900 XTX Nitro+,Sapphire,RX 7900 XTX Nitro+,24GB GDDR6,gpu,high_end,4895106000001,899.0,1099.0,2024-01-15,,Navi 31,,desktop,,PCIe 4.0,,,,,380,24
+GPU-020,AMD Radeon RX 7900 XT,AMD,Radeon RX 7900 XT,20GB GDDR6,gpu,high_end,0730143314018,699.0,849.0,2024-01-15,,Navi 31,,desktop,,PCIe 4.0,,,,,315,20
+GPU-021,PowerColor Radeon RX 7900 GRE Red Devil,PowerColor,RX 7900 GRE Red Devil,16GB GDDR6,gpu,high_end,4895183600001,549.0,679.0,2024-01-15,,Navi 31,,desktop,,PCIe 4.0,,,,,260,16
+GPU-022,AMD Radeon RX 7800 XT,AMD,Radeon RX 7800 XT,16GB GDDR6,gpu,mid_range,0730143314025,449.0,549.0,2024-01-15,,Navi 32,,desktop,,PCIe 4.0,,,,,263,16
+GPU-023,Sapphire Radeon RX 7700 XT Pulse,Sapphire,RX 7700 XT Pulse,12GB GDDR6,gpu,mid_range,4895106000018,349.0,429.0,2024-01-15,,Navi 32,,desktop,,PCIe 4.0,,,,,245,12
+GPU-024,XFX Radeon RX 7600 Speedster SWFT 210,XFX,RX 7600 Speedster SWFT 210,8GB GDDR6,gpu,budget,0778656000001,219.0,269.0,2024-01-15,,Navi 33,,desktop,,PCIe 4.0,,,,,165,8
+GPU-025,AMD Radeon RX 7600,AMD,Radeon RX 7600,8GB GDDR6,gpu,budget,0730143314032,199.0,249.0,2024-01-15,,Navi 33,,desktop,,PCIe 4.0,,,,,165,8
+GPU-026,Nvidia GeForce RTX 5090,Nvidia,GeForce RTX 5090,32GB GDDR7,gpu,high_end,0195161962001,1799.0,2199.0,2024-01-15,,GB202,,desktop,,PCIe 5.0,,,,,575,32
+GPU-027,ASUS ROG Strix RTX 5080 OC,ASUS,ROG Strix RTX 5080 OC,16GB GDDR7,gpu,high_end,4711387362001,1049.0,1299.0,2024-01-15,,GB203,,desktop,,PCIe 5.0,,,,,360,16
+GPU-028,MSI GeForce RTX 5070 Ti Gaming X Trio,MSI,RTX 5070 Ti Gaming X Trio,16GB GDDR7,gpu,high_end,4719072362001,749.0,949.0,2024-01-15,,GB203,,desktop,,PCIe 5.0,,,,,300,16
+GPU-029,Nvidia GeForce RTX 5070,Nvidia,GeForce RTX 5070,12GB GDDR7,gpu,mid_range,0195161962018,549.0,699.0,2024-01-15,,GB205,,desktop,,PCIe 5.0,,,,,250,12
+GPU-030,Gigabyte GeForce RTX 5060 Ti Gaming OC,Gigabyte,RTX 5060 Ti Gaming OC,16GB GDDR7,gpu,mid_range,4719331362001,399.0,499.0,2024-01-15,,GB206,,desktop,,PCIe 5.0,,,,,180,16
+GPU-031,Nvidia GeForce RTX 3070 Ti,Nvidia,GeForce RTX 3070 Ti,8GB GDDR6X,gpu,mid_range,0195161960001,299.0,379.0,2024-01-15,,GA104,,desktop,,PCIe 4.0,,,,,290,8
+GPU-032,ASUS Dual GeForce RTX 3060,ASUS,Dual RTX 3060 OC,12GB GDDR6,gpu,budget,4711387360001,229.0,289.0,2024-01-15,,GA106,,desktop,,PCIe 4.0,,,,,170,12
+GPU-033,MSI GeForce GTX 1660 Super Gaming X,MSI,GTX 1660 Super Gaming X,6GB GDDR6,gpu,budget,4719072360001,169.0,209.0,2024-01-15,,TU116,,desktop,,PCIe 3.0,,,,,125,6
+GPU-034,Zotac GeForce RTX 4060 Twin Edge OC,Zotac,RTX 4060 Twin Edge OC,8GB GDDR6,gpu,mid_range,4895173600001,249.0,309.0,2024-01-15,,AD107,,desktop,,PCIe 4.0,,,,,115,8
+GPU-035,Sapphire Radeon RX 6700 XT Nitro+,Sapphire,RX 6700 XT Nitro+,12GB GDDR6,gpu,mid_range,4895106000025,279.0,349.0,2024-01-15,,Navi 22,,desktop,,PCIe 4.0,,,,,230,12
+GPU-036,AMD Radeon RX 6600 XT,AMD,Radeon RX 6600 XT,8GB GDDR6,gpu,budget,0730143313001,199.0,249.0,2024-01-15,,Navi 23,,desktop,,PCIe 4.0,,,,,160,8
+GPU-037,Gigabyte Radeon RX 7600 XT Gaming OC,Gigabyte,RX 7600 XT Gaming OC,16GB GDDR6,gpu,mid_range,4719331361025,279.0,349.0,2024-01-15,,Navi 33,,desktop,,PCIe 4.0,,,,,190,16
+GPU-038,ASUS ProArt RTX 4080 Super OC,ASUS,ProArt RTX 4080 Super OC,16GB GDDR6X,gpu,high_end,4711387361039,999.0,1249.0,2024-01-15,,AD103,,desktop,,PCIe 4.0,,,,,340,16
+GPU-039,MSI Radeon RX 7900 GRE Gaming Trio,MSI,RX 7900 GRE Gaming Trio,16GB GDDR6,gpu,high_end,4719072361032,529.0,659.0,2024-01-15,,Navi 31,,desktop,,PCIe 4.0,,,,,260,16
+GPU-040,PowerColor Radeon RX 7800 XT Red Devil,PowerColor,RX 7800 XT Red Devil,16GB GDDR6,gpu,mid_range,4895183600018,469.0,579.0,2024-01-15,,Navi 32,,desktop,,PCIe 4.0,,,,,263,16
+PHN-001,Apple iPhone 16 Pro Max,Apple,iPhone 16 Pro Max,256GB Black Titanium,phone,flagship,0195949036001,1149.0,1399.0,2024-01-15,48,,6.9,,,,iOS,Apple A18 Pro,8,256,,
+PHN-002,Apple iPhone 16 Pro Max,Apple,iPhone 16 Pro Max,512GB Desert Titanium,phone,flagship,0195949036018,1299.0,1599.0,2024-01-15,48,,6.9,,,,iOS,Apple A18 Pro,8,512,,
+PHN-003,Apple iPhone 16 Pro,Apple,iPhone 16 Pro,128GB Black Titanium,phone,flagship,0195949036025,899.0,1099.0,2024-01-15,48,,6.3,,,,iOS,Apple A18 Pro,8,128,,
+PHN-004,Apple iPhone 16 Pro,Apple,iPhone 16 Pro,256GB Desert Titanium,phone,flagship,0195949036032,999.0,1249.0,2024-01-15,48,,6.3,,,,iOS,Apple A18 Pro,8,256,,
+PHN-005,Apple iPhone 16,Apple,iPhone 16,128GB Black,phone,flagship,0195949036039,699.0,849.0,2024-01-15,48,,6.1,,,,iOS,Apple A18,8,128,,
+PHN-006,Apple iPhone 16,Apple,iPhone 16,256GB Pink,phone,flagship,0195949036046,799.0,999.0,2024-01-15,48,,6.1,,,,iOS,Apple A18,8,256,,
+PHN-007,Apple iPhone 15 Pro Max,Apple,iPhone 15 Pro Max,256GB Natural Titanium,phone,flagship,0195949035001,999.0,1249.0,2024-01-15,48,,6.7,,,,iOS,Apple A17 Pro,8,256,,
+PHN-008,Apple iPhone 15,Apple,iPhone 15,128GB Black,phone,flagship,0195949035018,549.0,699.0,2024-01-15,48,,6.1,,,,iOS,Apple A16,6,128,,
+PHN-009,Samsung Galaxy S25 Ultra,Samsung,Galaxy S25 Ultra,256GB Titanium Black,phone,flagship,8806095900001,1049.0,1299.0,2024-01-15,200,,6.9,,,,Android,Snapdragon 8 Elite,12,256,,
+PHN-010,Samsung Galaxy S25 Ultra,Samsung,Galaxy S25 Ultra,512GB Titanium Gray,phone,flagship,8806095900018,1149.0,1449.0,2024-01-15,200,,6.9,,,,Android,Snapdragon 8 Elite,12,512,,
+PHN-011,Samsung Galaxy S25+,Samsung,Galaxy S25+,256GB Icy Blue,phone,flagship,8806095900025,799.0,999.0,2024-01-15,50,,6.7,,,,Android,Snapdragon 8 Elite,12,256,,
+PHN-012,Samsung Galaxy S25,Samsung,Galaxy S25,128GB Navy,phone,flagship,8806095900032,649.0,799.0,2024-01-15,50,,6.2,,,,Android,Snapdragon 8 Elite,12,128,,
+PHN-013,Samsung Galaxy S24 Ultra,Samsung,Galaxy S24 Ultra,256GB Titanium Black,phone,flagship,8806095800001,849.0,1049.0,2024-01-15,200,,6.8,,,,Android,Snapdragon 8 Gen 3,12,256,,
+PHN-014,Samsung Galaxy S24,Samsung,Galaxy S24,128GB Cobalt Violet,phone,flagship,8806095800018,499.0,649.0,2024-01-15,50,,6.2,,,,Android,Snapdragon 8 Gen 3,8,128,,
+PHN-015,Samsung Galaxy A55 5G,Samsung,Galaxy A55 5G,128GB Awesome Lilac,phone,mid_range,8806095800025,299.0,379.0,2024-01-15,50,,6.6,,,,Android,Exynos 1480,8,128,,
+PHN-016,Samsung Galaxy A35 5G,Samsung,Galaxy A35 5G,128GB Awesome Iceblue,phone,mid_range,8806095800032,229.0,289.0,2024-01-15,50,,6.6,,,,Android,Exynos 1380,6,128,,
+PHN-017,Samsung Galaxy Z Fold 6,Samsung,Galaxy Z Fold 6,256GB Silver Shadow,phone,foldable,8806095800039,1449.0,1799.0,2024-01-15,50,,7.6,,,,Android,Snapdragon 8 Gen 3,12,256,,
+PHN-018,Samsung Galaxy Z Flip 6,Samsung,Galaxy Z Flip 6,256GB Mint,phone,foldable,8806095800046,799.0,999.0,2024-01-15,50,,6.7,,,,Android,Snapdragon 8 Gen 3,12,256,,
+PHN-019,Google Pixel 9 Pro XL,Google,Pixel 9 Pro XL,256GB Obsidian,phone,flagship,0840244700001,899.0,1099.0,2024-01-15,50,,6.8,,,,Android,Google Tensor G4,16,256,,
+PHN-020,Google Pixel 9 Pro,Google,Pixel 9 Pro,128GB Porcelain,phone,flagship,0840244700018,749.0,949.0,2024-01-15,50,,6.3,,,,Android,Google Tensor G4,16,128,,
+PHN-021,Google Pixel 9,Google,Pixel 9,128GB Wintergreen,phone,flagship,0840244700025,599.0,749.0,2024-01-15,50,,6.3,,,,Android,Google Tensor G4,12,128,,
+PHN-022,Google Pixel 8a,Google,Pixel 8a,128GB Aloe,phone,mid_range,0840244700032,449.0,549.0,2024-01-15,64,,6.1,,,,Android,Google Tensor G3,8,128,,
+PHN-023,OnePlus 13,OnePlus,OnePlus 13,256GB Black Eclipse,phone,flagship,6921815626001,699.0,849.0,2024-01-15,50,,6.82,,,,Android,Snapdragon 8 Elite,12,256,,
+PHN-024,OnePlus 13,OnePlus,OnePlus 13,512GB Midnight Ocean,phone,flagship,6921815626018,799.0,999.0,2024-01-15,50,,6.82,,,,Android,Snapdragon 8 Elite,16,512,,
+PHN-025,OnePlus 12,OnePlus,OnePlus 12,256GB Silky Black,phone,flagship,6921815625001,599.0,749.0,2024-01-15,50,,6.82,,,,Android,Snapdragon 8 Gen 3,12,256,,
+PHN-026,Xiaomi 15 Ultra,Xiaomi,15 Ultra,512GB Black,phone,flagship,6941812700001,999.0,1249.0,2024-01-15,200,,6.73,,,,Android,Snapdragon 8 Elite,16,512,,
+PHN-027,Xiaomi 14T Pro,Xiaomi,14T Pro,256GB Titan Black,phone,flagship,6941812700018,649.0,799.0,2024-01-15,50,,6.67,,,,Android,Dimensity 9300+,12,256,,
+PHN-028,Xiaomi Redmi Note 13 Pro 5G,Xiaomi,Redmi Note 13 Pro 5G,256GB Midnight Black,phone,mid_range,6941812700025,249.0,299.0,2024-01-15,200,,6.67,,,,Android,Snapdragon 7s Gen 2,8,256,,
+PHN-029,Xiaomi Redmi 13C,Xiaomi,Redmi 13C,128GB Midnight Black,phone,budget,6941812700032,129.0,159.0,2024-01-15,50,,6.74,,,,Android,Helio G85,4,128,,
+PHN-030,Sony Xperia 1 VI,Sony,Xperia 1 VI,256GB Black,phone,flagship,4548736156001,849.0,1049.0,2024-01-15,52,,6.5,,,,Android,Snapdragon 8 Gen 3,12,256,,
+PHN-031,Sony Xperia 5 V,Sony,Xperia 5 V,128GB Black,phone,flagship,4548736155001,649.0,799.0,2024-01-15,12,,6.1,,,,Android,Snapdragon 8 Gen 2,8,128,,
+PHN-032,Motorola Edge 50 Pro,Motorola,Edge 50 Pro,256GB Black Beauty,phone,mid_range,0840023230001,349.0,449.0,2024-01-15,50,,6.7,,,,Android,Snapdragon 7 Gen 3,12,256,,
+PHN-033,Motorola Moto G85 5G,Motorola,Moto G85 5G,256GB Cobalt Blue,phone,budget,0840023230018,249.0,299.0,2024-01-15,50,,6.67,,,,Android,Snapdragon 6s Gen 3,8,256,,
+PHN-034,Nothing Phone (3a) Pro,Nothing,Phone (3a) Pro,256GB Black,phone,mid_range,6971008000001,399.0,499.0,2024-01-15,50,,6.77,,,,Android,Snapdragon 7s Gen 3,8,256,,
+PHN-035,Nothing Phone (2a),Nothing,Phone (2a),128GB Black,phone,mid_range,6971008000018,299.0,379.0,2024-01-15,50,,6.7,,,,Android,Dimensity 7200 Pro,8,128,,
+PHN-036,Apple iPhone 16 Plus,Apple,iPhone 16 Plus,128GB Ultramarine,phone,flagship,0195949036053,799.0,999.0,2024-01-15,48,,6.7,,,,iOS,Apple A18,8,128,,
+PHN-037,Samsung Galaxy S25 FE,Samsung,Galaxy S25 FE,128GB Navy,phone,mid_range,8806095900039,499.0,649.0,2024-01-15,50,,6.7,,,,Android,Exynos 2500,8,128,,
+PHN-038,Google Pixel 9 Pro Fold,Google,Pixel 9 Pro Fold,256GB Obsidian,phone,foldable,0840244700039,1449.0,1799.0,2024-01-15,48,,8.0,,,,Android,Google Tensor G4,16,256,,
+PHN-039,OnePlus Open 2,OnePlus,Open 2,512GB Emerald Dusk,phone,foldable,6921815627001,1249.0,1549.0,2024-01-15,48,,7.82,,,,Android,Snapdragon 8 Elite,16,512,,
+PHN-040,Xiaomi Mix Fold 4,Xiaomi,Mix Fold 4,512GB Black,phone,foldable,6941812701001,1099.0,1349.0,2024-01-15,50,,7.98,,,,Android,Snapdragon 8 Gen 3,16,512,,
+PHN-041,Apple iPhone 15 Pro,Apple,iPhone 15 Pro,128GB White Titanium,phone,flagship,0195949035025,799.0,999.0,2024-01-15,48,,6.1,,,,iOS,Apple A17 Pro,8,128,,
+PHN-042,Samsung Galaxy A15 5G,Samsung,Galaxy A15 5G,128GB Blue,phone,budget,8806095800053,149.0,199.0,2024-01-15,50,,6.5,,,,Android,Dimensity 6100+,4,128,,
+PHN-043,Xiaomi 13T,Xiaomi,13T,256GB Alpine Blue,phone,mid_range,6941812699001,399.0,499.0,2024-01-15,50,,6.67,,,,Android,Dimensity 8200 Ultra,8,256,,
+PHN-044,Sony Xperia 10 VI,Sony,Xperia 10 VI,128GB Black,phone,mid_range,4548736157001,349.0,449.0,2024-01-15,48,,6.1,,,,Android,Snapdragon 6 Gen 1,6,128,,
+PHN-045,Nothing Phone (2),Nothing,Phone (2),256GB White,phone,mid_range,6971008000025,399.0,499.0,2024-01-15,50,,6.7,,,,Android,Snapdragon 8+ Gen 1,12,256,,
